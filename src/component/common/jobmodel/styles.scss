@@ -1,0 +1,114 @@
+.job-modal{
+    width: 60% !important;
+    .ant-modal-content{
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .ant-modal-body{
+        flex: 1;
+    }
+    
+    .ant-modal-header{
+        border-bottom-style: inset;
+    }
+    .ant-modal-footer{
+        display: flex;
+        justify-content: space-between;
+        .ant-btn{
+            width: 100px !important;
+            height: 40px !important;
+            border-radius: 5px !important;
+        }
+        .ant-btn-primary{
+            background-color: #096eb5;
+        }
+        .disable{
+            pointer-events: none;
+        }
+    }
+    .header-main{
+        display: flex;
+        justify-content: space-between;
+
+        .title{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .main-title{
+                color: #096eb5;
+                font-family: Arial, Helvetica, sans-serif;
+                letter-spacing: 1px;
+            }
+            .sub-heading{
+                font-size: 11px;
+            }
+        }
+        .action-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ant-btn{
+                border-radius: 50%;
+                border: none;
+                background-color: #ddd;
+                width: 35px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+.timeline{
+    display: flex;
+    flex-direction: column;
+   .step-counter{
+       color: #096eb5;
+       font-weight: bold;
+   }
+    .timeline-steps{
+        display: flex;
+        background-color: #ddd;
+        .step{
+            display: flex;
+            justify-content: center;
+            flex: 1;
+            height: 45px;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            
+        }
+        .afterFilling{
+            border-right: 1px inset #072b44;
+            border-radius: unset !important;
+            background-color: #096eb5;
+        }
+        .afterFilling3{
+            border-right: 1px inset #072b44;
+            border-radius: unset !important;
+            background-color: #096eb5 !important;
+        }
+
+        .step1{
+           background-color:  #096eb5;
+           border-radius: 0 50px 50px 0;
+
+
+        }
+        .step2{
+            background-color:  #096eb5;
+            border-radius: 0 50px 50px 0;
+        }
+        .step3{
+            background-color:  #096eb5;
+           border-radius: 0 50px 50px 0;
+           
+
+        }
+
+    }
+}

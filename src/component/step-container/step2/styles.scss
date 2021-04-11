@@ -1,0 +1,103 @@
+.step2-container{
+    margin-top: 45px;
+    .section1{
+        display: flex;
+        justify-content: space-between;
+        .css-2b097c-container{
+           width: 48%;
+           .css-yk16xz-control{
+               height: 47px;
+               border-color: #ddd;
+               .css-1hb7zxy-IndicatorsContainer{
+                background: #ddd;
+                border-radius: 5px 0 0 5px;
+                width: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               }
+               .css-1okebmr-indicatorSeparator{
+                   display: none;
+               }
+           }
+           .css-1pahdxg-control{
+            height: 47px;
+            border-color: #ddd;
+
+            .css-1hb7zxy-IndicatorsContainer{
+             background: #ddd;
+             border-radius: 5px 0 0 5px;
+             width: 40px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+            }
+            .css-1okebmr-indicatorSeparator{
+                display: none;
+            }
+
+           }
+        }
+        .MuiFormControl-root{
+            width: 48%;
+            .MuiInputBase-root{
+                height: 48px;
+            }
+        }
+    }
+    .section2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+        .css-2b097c-container{
+            width: 48%;
+            .css-yk16xz-control{
+                height: 47px;
+                border-color: #ddd;
+ 
+                .css-1hb7zxy-IndicatorsContainer{
+                 background: #ddd;
+                 border-radius: 5px 0 0 5px;
+                 width: 40px;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                }
+                .css-1okebmr-indicatorSeparator{
+                    display: none;
+                }
+            }
+            .css-1pahdxg-control{
+                height: 47px;
+                border-color: #ddd;
+    
+                .css-1hb7zxy-IndicatorsContainer{
+                 background: #ddd;
+                 border-radius: 5px 0 0 5px;
+                 width: 40px;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                }
+                .css-1okebmr-indicatorSeparator{
+                    display: none;
+                }
+               }
+        }
+    }
+    .section3{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 30px;
+        .MuiFormControl-root{
+            width: 100%;
+            border-radius: 5px;
+            height: 130px;
+            top: 0;
+            .MuiInputBase-root{
+                height: 130px;
+            }
+        }
+    }
+}
